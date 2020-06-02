@@ -1,64 +1,20 @@
-/* Mobile view  */
+/* layout styling */
 
-  header, aside, div, footer { 
-    display: block;
+@viewport {
+    width: device-width;
+    /* zoom: 1; */
+}
+
+.box {
     float: left;
-    width: 100%;       
-    position: relative; 
-    outline-width: 1px;
-    outline-style: solid;
-    outline-color: red; 
+    box-sizing: border-box;
+}
+
+.box-v {
+    float: right;
+    box-sizing: border-box;
+}
+.rainbow {
+    overflow: auto;
   }
-  p { 
-    position: absolute; 
-    top: 50%;
-    left: 50%;
-  }
-  header {
-    height: calc(100vh * (75/1055));
-  }
-  aside {
-    height: calc(100vh * (150/1055));
-  }
-  .fit {
-    height: calc(100vh * (125/1055));
-  }
-  .st { 
-    width: 50%; 
-    height: calc(100vh * (250/1055));
-  }
-  footer {
-    height: calc(100vh * (80/1055));
-  }
-  
-  
-  /* tablet view */
-  @media screen and (min-width: 480px) {
-  
-     header, div, aside, footer {
-      outline-width: 1px;
-      outline-style: solid;
-      outline-color: gray; 
-    }
-    header {
-      width: calc(100vw * (960/960));
-      height: calc(100vh * (100/700));
-    }
-    aside {
-      width: calc(100vw * (200/960));
-      height: calc(100vh * (600/700));
-    }
-    .fit {
-      width: calc(100vw * (380/960));
-      height: calc(100vh * (200/700));
-      display: inline-block;
-    }
-    .st {
-      width: calc(100vw * (190/960));
-      height: calc(100vh * (250/700));
-    }
-    footer {
-      width: calc(100vw * (760/960));
-      height: calc(100vh * (150/700));
-    }
-  }
+ 
