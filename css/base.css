@@ -1,0 +1,9 @@
+/* base.css file */
+     body {
+    color: black;
+    width: 960px; 
+    height: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    
+  }

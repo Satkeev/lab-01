@@ -1,0 +1,93 @@
+/* Mobile view (the default view) */
+#box1 {
+    background-color: rgb(0, 255, 21);
+  }
+  #box2 {
+    background-color: rgb(9, 148, 102);
+  }
+  #box3 {
+    background-color: rgb(199, 173, 28);
+  }
+  #box4 {
+    background-color: rgb(122, 12, 95);
+  }
+  #box5 {
+    background-color: blue;
+  }
+  #box6 {
+    background-color: blueviolet
+  }
+  #box7 {
+    background-color: brown;
+  }
+  #box8 {
+    background-color: rgb(193, 223, 122);
+  }
+  #box9 {
+    background-color: chartreuse;
+  }
+  
+ 
+  
+  /* tablet view */
+  @media screen and (min-width: 480px) {
+    #box1 {
+      background-color: darkkhaki;
+    }
+    #box2 {
+      background-color: darkolivegreen;
+    }
+    #box3 {
+      background-color: darkorange;
+    }
+    #box4 {
+      background-color: darkorchid;
+    }
+    #box5 {
+      background-color: darksalmon;
+    }
+    #box6 {
+      background-color: darkseagreen;
+    }
+    #box7 {
+      background-color: darkturquoise;
+    }
+    #box8 {
+      background-color: green;
+    }
+    #box9 {
+      background-color: firebrick;
+    }
+  }
+  
+  
+  /* desktop view */
+  @media screen and (min-width: 1100px) {
+    #box1 {
+      background-color: chocolate;
+    }
+    #box2 {
+      background-color: coral;
+    }
+    #box3 {
+      background-color: cornflowerblue;
+    }
+    #box4 {
+      background-color: cornsilk;
+    }
+    #box5 {
+      background-color: crimson;
+    }
+    #box6 {
+      background-color: cyan;
+    }
+    #box7 {
+      background-color: darkcyan;
+    }
+    #box8 {
+      background-color: darkgoldenrod;
+    }
+    #box9 {
+      background-color: darkgray;
+    }
+  }
