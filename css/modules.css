@@ -1,16 +1,5 @@
 /* modules styling */
-.cd {
-    width: 480px;
-    height: 125px;
-    line-height: 125px;
-    text-align: center; 
-}
-.efgh {
-    width: 240px;
-    height: 250px;
-    line-height: 250px;
-    text-align: center; 
-}
+
 .a {
     background-color: rgba(255, 0, 0, 0.5);
 }
