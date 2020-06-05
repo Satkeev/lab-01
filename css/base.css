@@ -2,23 +2,20 @@
 body {
     width: 480px;
     height: 765px;
-    background-color: rgb(189, 148, 148);
-/* }
-header */
+    background-color: #ccc;
+}
 header {
     width: 480px;
     height: 150px;
     line-height: 150px;
     text-align: center;           
 }
-/* footer */
 .footer {
     width: 480px;
-    height: 100px;   
-    line-height: 100px;
+    height: 125px;   
+    line-height: 125px;
     text-align: center;   
 }
-/* aside box */
 aside {
     width: 480px;
     height: 150px;
@@ -29,7 +26,7 @@ main {
     width: 480px;
     height: 750px;     
 }
-/* breakpoint */
+
 @media all and (min-width: 768px) {
     body {
             width: 960px;
