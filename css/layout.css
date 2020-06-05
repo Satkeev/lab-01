@@ -1,8 +1,7 @@
-/* layout styling */
-
+/* layout float styling */
 @viewport {
     width: device-width;
-    /* zoom: 1; */
+    zoom: 1;
 }
 
 .box {
@@ -10,11 +9,11 @@
     box-sizing: border-box;
 }
 
-.box-v {
+.box-r {
     float: right;
     box-sizing: border-box;
 }
-.rainbow {
+.clearfix {
     overflow: auto;
   }
  
